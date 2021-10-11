@@ -1,0 +1,191 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  body {
+    /* background-color: #F0F8FF; */
+    background-image: url('../images/greenery.jpg');
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .TABS {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+
+    /* margin: 5% auto;
+    padding: 2%; */
+  }
+
+  .TABS input[type="radio"] {
+    display: none;
+  }
+
+  .TABS label {
+    padding: 1%;
+    margin: 2%;
+    background: rgb(163, 143, 235);
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .TABS label:hover {
+    font-size: larger;
+    color: rgb(228, 228, 66);
+  }
+
+  .TABS .TABSINFO {
+    padding: 25%;
+    width: 100%;
+    padding: 3%;
+    /* background: #fff; */
+    order: 1;
+    display: none;
+  }
+
+  h3{
+    text-align: center;
+      font-size:x-large;
+      letter-spacing: 2px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+  }
+  
+  .TABS .TABSINFO img {
+    padding: 3%;
+    border-radius: 10%;
+  }
+
+  .TABS .TABSINFO p {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+  }
+
+
+
+  .TABS .TABSINFO p a, h3 a {
+    color: white;
+
+  }
+
+  .TABS .TABSINFO p a:hover, h3 a:hover {
+    background-color: rgb(226, 126, 173);
+    /* color: rgb(218, 22, 22); */
+    padding: 0.5%;
+    border-radius: 1%;
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+
+  .TABS .TABSINFO table th,
+  td {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+
+    width: 3%;
+    text-align: center;
+    padding: 2%;
+    /* margin: 5%; */
+    border-color: rgb(248, 6, 147);
+  }
+
+
+  .TABS input[type='radio']:checked+label+.TABSINFO {
+    display: block;
+
+  }
+
+  .TABS input[type='radio']:checked+label+.TABSINFO+p {
+    padding: 30%;
+    margin: 30%;
+    font-size: larger;
+    background-color: white;
+  }
+
+  .TABS input[type="radio"]:checked+label {
+    background: blue;
+  }
+
+  #contact {
+    list-style: none;
+    float: left;
+  }
+
+  #contact li {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+
+    float: left;
+    width: 100%;
+  }
+
+  #contact li a {
+    color: white;
+  }
+
+
+  #contact li a:hover {
+    background-color: rgb(223, 231, 144);
+    color: red;
+    padding: 0.5%;
+    border-radius: 1%;
+    text-decoration: none;
+  }
+  span{
+    float: left;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: black;
+    bottom: 0;
+    position: absolute;
+  }
+  .ICONS {
+   
+   bottom: 0;
+   position: relative;
+   float: right;
+}
+footer {
+  height: 4%;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 0;
+  justify-content: right;
+  align-items: center;
+  background-color: black;
+  color: white;
+  bottom: 0;
+}
+#Time_Date{
+  bottom: 0;
+  /* position: absolute; */
+  /* background-color: rgb(176, 233, 92); */
+  display:block;
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
